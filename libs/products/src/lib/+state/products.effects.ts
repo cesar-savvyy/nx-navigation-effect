@@ -12,6 +12,7 @@ export class ProductsEffects {
       ofType(ProductsActions.loadProducts),
       fetch({
         run: action => {
+          console.log('loaded products')
           // Your custom service 'load' logic goes here. For now just return a success action...
           return ProductsActions.loadProductsSuccess({ products: [] });
         },
