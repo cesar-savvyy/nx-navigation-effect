@@ -25,6 +25,9 @@
     "nx-navigation-effect-e2e": {
       "tags": [],
       "implicitDependencies": ["nx-navigation-effect"]
+    },
+    "products": {
+      "tags": []
     }
   }
 }
